@@ -47,6 +47,8 @@ Processing artist page 15
 Processing artist page 16
 ```
 
+tags.py -> This is the same as artists.py but for tags instead so see above
+
 ## Setup
 
 ### Step 1 - Install Python
