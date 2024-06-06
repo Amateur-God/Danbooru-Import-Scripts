@@ -2,7 +2,9 @@
 
 These scripts are made to import artists from danbooru and upload them to a selfhosted danbooru site, these scripts are not to be used to clone danbooru and are purely for self hosted personal sites.
 
-artists-manual.py -> This is for imprting a single artist at a time using the artist ID ``https://danbooru.donmai.us/artists/ID``, however the script will keep running waiting for the next ID until you press ``Ctrl+C``
+### artists-manual.py 
+
+This is for imprting a single artist at a time using the artist ID ``https://danbooru.donmai.us/artists/ID``, however the script will keep running waiting for the next ID until you press ``Ctrl+C``
 
 the output of this will look like below
 
@@ -20,7 +22,9 @@ Successfully updated artist: micon
 Enter the artist ID to search for (or press Ctrl+C to exit): 
 ```
 
-artists.py -> This is for importing your api limit of pages of random artists from danbooru (im not 100% sure how the api decides what artists to provide info for i think it goes by the most recently updated) this script will run automatically and will process pages untill you reach your api limit once you reach your API limit it will then start uploading the proccessed pages to your site
+### artists.py 
+
+This is for importing your api limit of pages of random artists from danbooru (im not 100% sure how the api decides what artists to provide info for i think it goes by the most recently updated) this script will run automatically and will process pages untill you reach your api limit once you reach your API limit it will then start uploading the proccessed pages to your site
 
 the output will look like below but will continue untill the api limit has been reached, once the script has completed it will automatically exit
 i suggest running this script in a screened terminal so you can detach from the screen and keep it running
@@ -47,7 +51,29 @@ Processing artist page 15
 Processing artist page 16
 ```
 
-tags.py -> This is the same as artists.py but for tags instead so see above
+### tags.py 
+
+This will get upto 1000 Pages of tags from your site and then search danbooru for these tags and the update them with the details from danbooru such as if the tag is a "copy:", "char:", "meta:" etc tag
+
+see below for sample output
+
+```bash
+Processing tag page 402
+Processing tag page 403
+Processing tag page 404
+Processing tag page 405
+Processing tag page 406
+Processing tag page 407
+Processing tag page 408
+Updated tag ookami_mio_(another_ookami_mio) successfully.
+Updated tag miofa_(ookami_mio) successfully.
+Updated tag micon successfully.
+Updated tag wolf_tail successfully.
+Updated tag wolf_girl successfully.
+Updated tag ookami_mio successfully.
+Updated tag pink_shorts successfully.
+Updated tag partially_colored successfully.
+```
 
 ## Setup
 
