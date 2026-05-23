@@ -2,6 +2,14 @@
 
 These scripts are made to import artists from danbooru and upload them to a selfhosted danbooru site, these scripts are not to be used to clone danbooru and are purely for self hosted personal sites.
 
+> [!NOTE]
+> **Enjoying this integration?**
+>
+> This is an open-source project I maintain in my spare time. If you'd like to show your appreciation and support its development, you can buy me a coffee!
+>
+> [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/amateurgod)
+
+
 ### artists-manual.py 
 
 This is for imprting a single artist at a time using the artist ID ``https://danbooru.donmai.us/artists/ID``, however the script will keep running waiting for the next ID until you press ``Ctrl+C``
