@@ -1,5 +1,9 @@
 # Danbooru-Import-Scripts
 
+[![CI](https://github.com/Amateur-God/Danbooru-Import-Scripts/actions/workflows/ci.yml/badge.svg)](https://github.com/Amateur-God/Danbooru-Import-Scripts/actions/workflows/ci.yml)
+
+Contributions welcome — see [CONTRIBUTING.md](.github/CONTRIBUTING.md). PRs require DCO sign-off (`git commit -s`).
+
 These scripts are made to import artists from danbooru and upload them to a selfhosted danbooru site, these scripts are not to be used to clone danbooru and are purely for self hosted personal sites.
 
 > [!NOTE]
@@ -97,7 +101,7 @@ sudo apt install python3
 
 Get the latest version using your favorite git client or by downloading the latest release from here:
 
-https://github.com/Amateur-God/Danbooru-Artist-Importer/releases
+https://github.com/Amateur-God/Danbooru-Import-Scripts/releases
 
 I reccomend extracting the files into its own directory in opt like "/opt/BooruScripts"
 
